@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir --upgrade -r /nemo/requirements.txt
 
 COPY src /nemo/src
 
-CMD ["uvicorn", "app.main:main", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "src.main:main", "--host", "0.0.0.0", "--port", "80"]
