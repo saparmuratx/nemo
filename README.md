@@ -1,2 +1,2 @@
 # nemo
-Simple API for not taking with Rich Text support
+Simple API for Note taking application with Rich Text support
